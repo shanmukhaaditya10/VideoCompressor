@@ -12,8 +12,8 @@ const ImagePickerBox = ({ pickVideo, selectedVideo, initialVideoSize }) => {
             {initialVideoSize} mb
           </Text></View>
           <View  style={{justifyContent:"center",alignItems:"center"}}>
-          <TouchableOpacity style={{width:130,height:50,backgroundColor:"white",borderRadius:5,justifyContent:"center",alignItems:"center",marginTop:20}} onPress={pickVideo}>
-            <Text style={{fontSize:16}}>Pick another</Text>
+          <TouchableOpacity style={{width:130,justifyContent:"center",alignItems:"center",marginTop:20}} onPress={pickVideo}>
+            <Text style={{fontSize:14,color:"#80ddff",fontWeight:"900",textDecorationLine:"underline"}}>Pick another?</Text>
           </TouchableOpacity>
           </View>
         </View>
